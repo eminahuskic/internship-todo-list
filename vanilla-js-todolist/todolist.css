@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.list-item.completed {
+  text-decoration: line-through;
+}
